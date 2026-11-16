@@ -4,7 +4,9 @@ Tap Homebrew du client macOS de [meeto](https://github.com/younesehb/meeto) (enr
 réunions, entièrement en local).
 
 ```sh
-brew install --cask younesehb/meeto/meeto
+brew tap younesehb/meeto
+brew install --cask meeto
 ```
 
-macOS 15 ou plus, Apple Silicon. Le cask est mis à jour par `scripts/release.sh` du dépôt meeto à chaque release.
+macOS 15 ou plus, Apple Silicon. Le binaire (`MeetoClient.app`, signature ad hoc) est publié dans les releases de ce dépôt, le code de meeto restant
+privé ; le cask est mis à jour par `scripts/release.sh` de meeto à chaque release.
