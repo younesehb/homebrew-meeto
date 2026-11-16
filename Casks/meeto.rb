@@ -1,6 +1,6 @@
 cask "meeto" do
   version "0.3.1"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "2649f64fa5a52153162e9f2c7b71035e60ca594b83f0a22d33ad7aca85ccb775"
 
   url "https://github.com/younesehb/meeto/releases/download/v#{version}/MeetoClient-macos-arm64.zip"
   name "Meeto"
