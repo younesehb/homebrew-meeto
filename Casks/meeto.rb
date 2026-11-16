@@ -1,6 +1,6 @@
 cask "meeto" do
-  version "0.4.0"
-  sha256 "a57498252acecd037cabf03f6e27bc654bc07ab649f2b149ed6bf2e43a2b0f17"
+  version "0.4.1"
+  sha256 "876aea5de117d686918b2f37fe5f80809386b8c1184cf269ce62f4194dbba341"
 
   # Le dépôt meeto est privé : le binaire est publié dans les releases de ce tap.
   url "https://github.com/younesehb/homebrew-meeto/releases/download/v#{version}/MeetoClient-macos-arm64.zip"
